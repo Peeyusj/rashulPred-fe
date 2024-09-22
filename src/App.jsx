@@ -50,7 +50,7 @@ const App = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/predict", {
+      const response = await fetch(" https://677d-27-60-137-211.ngrok-free.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -116,7 +116,7 @@ const App = () => {
         {result && (
           <div className="mt-4 text-center text-green-600">
             <h2 className="font-bold text-lg">Prediction Result</h2>
-            <p>{result}</p>
+            <p>{result?`${result} %`:"N/A"}</p>
           </div>
         )}
       </form>

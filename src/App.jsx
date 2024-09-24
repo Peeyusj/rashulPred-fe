@@ -50,7 +50,7 @@ const App = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://fcaf-2401-4900-84c2-f254-bdf5-b2af-5659-31fc.ngrok-free.app/predict", {
+      const response = await fetch("https://ff90-110-226-203-169.ngrok-free.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

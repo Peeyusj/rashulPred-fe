@@ -102,7 +102,7 @@ const App = () => {
         >
           <div className="mb-12 w-full text-center">
             <h1 className="text-2xl sm:text-3xl font-bold mt-8">
-              Predict Your Business Model
+              Business Model
             </h1>
           </div>
 

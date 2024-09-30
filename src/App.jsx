@@ -52,7 +52,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        "https://2a20-110-226-193-81.ngrok-free.app/predict",
+        "https://68d0-106-205-171-181.ngrok-free.app/predict",
         {
           method: "POST",
           headers: {
